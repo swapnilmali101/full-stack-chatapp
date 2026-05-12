@@ -1,4 +1,4 @@
-# 🚀 k8s-manifests-local-chatapp
+# 🚀 full-stack-chatapp
 
 Kubernetes manifests for deploying a **full-stack chat application** on a local Docker Desktop (Windows) environment with Kubernetes enabled on a single-node cluster.
 
@@ -77,7 +77,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 ## Project Structure
 
 ```
-k8s-manifests-local-chatapp/
+full-stack-chatapp/
 ├── k8s-manifests/
 │   ├── namespace.yaml            # Namespace: k8s-chatapp
 │   ├── secrets.yaml              # Kubernetes Secrets (DB credentials, etc.)
@@ -103,8 +103,8 @@ k8s-manifests-local-chatapp/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/swapnilmali101/k8s-manifests-local-chatapp.git
-cd k8s-manifests-local-chatapp
+git clone https://github.com/swapnilmali101/full-stack-chatapp.git
+cd full-stack-chatapp
 ```
 
 ### 2. Configure Environment Variables
