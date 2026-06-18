@@ -19,7 +19,7 @@ Kubernetes manifests for deploying a **full-stack chat application** on a local 
 
 -----
 
-## Overview
+## 🚀 Overview
 
 This repository contains all the Kubernetes manifest files needed to spin up a full-stack chat application locally. The stack includes:
 
@@ -33,7 +33,7 @@ All resources are scoped to the `k8s-chatapp` namespace.
 
 -----
 
-## Architecture
+## 🏗️ Architecture
 
 ```
                         ┌─────────────────────────────────────────┐
@@ -50,7 +50,7 @@ All resources are scoped to the `k8s-chatapp` namespace.
 
 -----
 
-## Prerequisites
+## ⚙️ Prerequisites
 
 Ensure the following are installed and running before deploying:
 
@@ -74,7 +74,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 -----
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 full-stack-chatapp/
@@ -98,7 +98,7 @@ full-stack-chatapp/
 
 -----
 
-## Getting Started
+## ⚡Getting Started
 
 ### 1. Clone the Repository
 
@@ -118,7 +118,7 @@ echo -n "your-password" | base64
 
 -----
 
-## Deployment
+## 👷‍♂️ Deployment
 
 Apply all manifests in the following order from the `k8s-manifests/` directory:
 
@@ -188,7 +188,7 @@ All pods should show `Running` status before proceeding.
 
 -----
 
-## Accessing the Application
+## 🌐 Accessing the Application
 
 ### Via Ingress (Recommended)
 
@@ -210,7 +210,7 @@ Backend API available at: <http://localhost:5001>
 
 -----
 
-## Teardown
+## ⛓️‍💥 Teardown
 
 To remove all deployed resources and clean up the namespace:
 
@@ -223,16 +223,37 @@ kubectl get ns
 
 -----
 
-## Troubleshoots
+## 📟 Troubleshoots
 
 ___[refer repo ⇒ troubleshooting-plunges](https://github.com/swapnilmali101/troubleshooting-plunges)___
 
 ---
 
-## License
+## 🪪 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 -----
 
-> Made with ❤️ by [swapnilmali101](https://github.com/swapnilmali101) — Happy ☸️Kube-cuttling! 🌍
+## ✍️ Author
+
+<!-- Start author box -->
+<table align="center" width="100%">
+    <tr>
+        <td align="center" valign="middle" width="30%">
+            <img src="https://github.com/swapnilmali101/swapnilmali101/blob/master/assets/swapnilmali-profile-pic.png" alt="Swapnil Mali" width="150" style="border-radius: 50%; max-width="100%;">
+        </td>
+        <td align="left" valign="top" width="70%">
+            <h2>SWAPNIL MALI.</h2>
+            <p>
+                <a href="https://github.com/swapnilmali101" target="_blank" align="center">
+                   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=yellow" alt="GitHub Profile">
+                </a>
+            </p>
+            <p><em>👨🏻‍💻CS Engineer | AWS & DevOps Specialist -🎯focused on building reliable, observable, and scalable systems.</em></p>
+        </td>
+    </tr>
+</table>
+<!-- End author box -->
+
+---
