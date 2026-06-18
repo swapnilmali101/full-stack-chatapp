@@ -229,7 +229,7 @@ ___[refer repo ⇒ troubleshooting-plunges](https://github.com/swapnilmali101/tr
 
 ---
 
-## 🪪 License
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
