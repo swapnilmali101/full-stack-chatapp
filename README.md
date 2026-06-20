@@ -1,6 +1,6 @@
-# 🚀 full-stack-chatapp
+# 🚀 Full Stack Chat Application
 
-Kubernetes manifests for deploying a **full-stack chat application** on a local Docker Desktop (Windows) environment with Kubernetes enabled on a single-node cluster.
+Kubernetes manifests for deploying a **Full Stack Chat Application** on a local Docker Desktop (Windows) environment with Kubernetes enabled on a single-node cluster.
 
 -----
 
